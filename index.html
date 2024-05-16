@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bible Echo - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!----- Internet css links needed lapha _----->
+  </head>
+  <body>
+    <header>
+      <!---web icon needed---->
+      <a href="##" class="logo"> the Bible Echo </a>
+      <ul class="navbar">
+        <li><a href="##" class="active">Overview</a></li>
+        <li><a href="##">Specifications</a></li>
+        <li><a href="##">Reviews</a></li>
+        <li><a href="##">Contact</a></li>
+      </ul>
+
+      <div class="header-icons">
+        <!-----web icons needed----->
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="home-img">
+        <img src="img/product1.png" class="one" />
+      </div>
+
+      <div class="home-text">
+        <h1>
+          The <br />
+          Bible Echo
+        </h1>
+        <h5>THE BIBLE AND THE BIBLE ALONE</h5>
+        <h3>Mission</h3>
+        <a href="##" class="btn">Join Now</a>
+      </div>
+    </section>
+
+    <div class="main">
+      <div class="row">
+        <li>
+          <img src="img/main1.png" onclick="slider('img/product1.png')" />
+        </li>
+      </div>
+
+      <div class="row row2">
+        <li>
+          <img src="img/main1.png" onclick="slider('img/product2.png')" />
+        </li>
+      </div>
+
+      <div class="row row3">
+        <li>
+          <img src="img/main1.png" onclick="slider('img/product3.png')" />
+        </li>
+      </div>
+    </div>
+
+    <a href="#" class="bottom">Scroll Down</a>
+    <!-----web icon needed for down arrow lapha----->
+
+    <script type="text/javascript">
+      function slider(anything) {
+        document.querySelector(".one").src = anything;
+      }
+    </script>
+  </body>
+</html>
