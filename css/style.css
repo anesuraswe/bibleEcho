@@ -38,10 +38,10 @@ header{
 	font-size: 28px;
 	font-weight: bold;
 }
-/* .logo i{
+.logo i{
 	##
 	##
-} */
+}
 .navbar{
 	display: flex;
 }
@@ -58,7 +58,7 @@ header{
 .navbar a.active{
 	color: var(--main-color);
 }
-/* .header-icons{
+.header-icons{
 	##
 	##
 }
@@ -73,7 +73,7 @@ header{
 .header-icons i:hover{
 	##
 	##
-} */
+}
 section{
 	padding: 0 15%;
 }
@@ -171,10 +171,10 @@ section{
 	font-size: 15px;
 	font-weight: 500;
 }
-/* .bottom i{
+.bottom i{
 	##
 	##
-} */
+}
 
 @media (max-width: 1740px){
 	header{
